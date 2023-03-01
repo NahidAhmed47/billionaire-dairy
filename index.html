@@ -13,11 +13,35 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header>
-    </header>
+  <body class="max-w-[1300px] mx-auto">
     <main>
-        
+        <section class="grid grid-cols-1 md:grid-cols-5 border border-t-0">
+          <!-- side navbar -->
+          <div class="bg-[#0E1B34] text-center py-4 px-5">
+            <h1 class="text-2xl font-bold text-slate-200 mt-1 mb-8">BILLIONAIRE <br><span class="text-base font-semibold text-slate-300">D A I R Y</span></h1>
+            <div>
+              <div class="flex flex-col gap-5 mb-16">
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Add a User</button>
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Double Money</button>
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Short by Bank</button>
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Calculate Entire Wealth</button>
+              </div>
+              <div class="flex flex-col gap-5 mb-3">
+                <h1 class="text-xl font-bold text-slate-200">Categories</h1>
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Show All Billionaires</button>
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Richest by industry</button>
+                <button class="w-full bg-slate-200 py-2 text-base font-bold hover:bg-slate-300 hover:scale-[0.95] duration-300">Richest by states</button>
+              </div>
+            </div>
+          </div>
+          <!-- default home page -->
+          <div class="col-start-2 col-end-[-1]">
+            <!-- header -->
+            <div class="h-20 bg-slate-200 w-full">
+
+            </div>
+          </div>
+        </section>
     </main>
     <!-- Local js file -->
     <script src="js/utilities.js"></script>
