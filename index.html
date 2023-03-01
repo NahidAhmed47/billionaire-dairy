@@ -13,7 +13,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="max-w-[1300px] mx-auto">
+  <body class="max-w-[1350px] mx-auto">
     <main>
         <section class="grid grid-cols-1 md:grid-cols-5">
           <!-- side navbar -->
@@ -37,16 +37,22 @@
           <!-- default home page -->
           <div class="col-start-2 col-end-[-1]">
             <!-- header -->
-            <div class="h-24 bg-slate-100 w-full px-8">
+            <div class="h-24 bg-slate-100 w-full px-8 border-b">
               <div class="flex justify-between items-center h-full">
                 <input class="bg-slate-100 border-b border-slate-400 h-10 outline-none font-semibold" type="text" placeholder="Search...">
                 <h1 class="text-center text-xl font-bold">Richest by industry <br> <span class="text-sm font-bold text-slate-700">(Technology)</span></h1>
                 <img class="w-14" src="images/logo/logo1.png" alt="">
               </div>
             </div>
+            <!-- Loading spinner -->
+            <div id="loading-spinner" class="h-[60%] bg-white">
+              <div class="flex justify-center items-center h-full">
+                <img class="h-16 w-16" src="https://icons8.com/preloaders/preloaders/1488/Iphone-spinner-2.gif" alt="">
+              </div>
+              </div>
             <!-- display section -->
-            <div>
-
+            <div id="display-data-container" class="px-8 pt-6 grid grid-cols-3 gap-4">
+              
             </div>
           </div>
         </section>
